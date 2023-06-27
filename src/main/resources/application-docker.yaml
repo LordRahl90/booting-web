@@ -1,0 +1,6 @@
+spring:
+  config:
+    activate:
+      on-profile: docker
+server:
+  port: ${PORT}

@@ -1,0 +1,11 @@
+version: '3.1'
+
+services:
+  booking-web:
+    container_name: booking-web
+    build: .
+    ports:
+      - "9000:3500"
+    environment:
+      PORT: "3500"
+      PROFILE: "docker"
